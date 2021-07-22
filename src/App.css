@@ -1,5 +1,29 @@
 .App {
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
   text-align: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+html,
+#root{
+  height: 100%;
+}
+
+.todo-form{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  color: white
+}
+
+li{
+  text-align: initial;
 }
 
 .App-logo {
